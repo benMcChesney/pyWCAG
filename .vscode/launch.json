@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Python: Current File",
             "type": "python",
@@ -11,5 +12,24 @@
             "program": "${file}",
             "console": "integratedTerminal"
         }
+        ,
+        {
+            "name": "app.py CF with args",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args" : [ "#FFFFFF" , "#FFCCAA" ]
+        }
+        ,
+        {
+            "name": "app_bi_theme",
+            "type": "python",
+            "request": "launch",
+            "program": "app_pbi_theme.py",
+            "console": "integratedTerminal",
+            "args" : [ "classic_theme.json"  ]
+        }
+        
     ]
 }
