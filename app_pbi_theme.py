@@ -38,7 +38,8 @@ for c_hex in colors :
                     "theme_color" : c_hex.upper() , 
                     "attrib_color" : attrib_hex.upper() , 
                     "attrib_name" : attrib , 
-                    "wcag_score" : score 
+                    "wcag_score" : score ,
+                    "color_index" : color_index
                 }
                 rows.append( row ) 
     color_index += 1 
